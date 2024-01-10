@@ -22,6 +22,7 @@ public class FilterPage {
     public void checkOnFilterPage() throws InterruptedException {
         elementHelper.checkElement(filtreleme);
         Thread.sleep(7000);
+
     }
 
     public void clickKargo(String text) {

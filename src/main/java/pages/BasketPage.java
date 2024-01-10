@@ -20,6 +20,7 @@ public class BasketPage {
 
 
 
+
     public void checkOnBasketPage() {
         elementHelper.checkElement(sepetim);
         //String locator = "//android.widget.TextView[@text=\"" + item + "\"]/../android.widget.CheckBox";-->/.. bir üst elemente çıkıyor
