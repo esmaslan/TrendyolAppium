@@ -5,7 +5,7 @@ Feature: TrendyolBasket
   Scenario: Add to cart
     Given user should see the Gender Page
     When taps Gender "KADIN" on Gender Page
-    Then shogit uld Popup Close Button on Home Page
+    Then should Popup Close Button on Home Page
     Then should see the Home Page
     When taps Search Area on Home Page
     Then should see the Search Page
